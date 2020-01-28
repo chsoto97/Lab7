@@ -1,10 +1,3 @@
-Laboratorio 6
+Laboratorio 7
 
-Servidor node y html con llamadas.
-
-Se requiere instalar los siguientes paquetes con npm install
-
-'express'
-'morgan'
-'body-parser'
-'uuid'
+Aplicación en Heroku con conexión a base de datos Mongo en línea
