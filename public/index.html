@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Blog</title>
+  </head>
+  <body>
+  	<main>
+  		<h1>Blog</h1>
+  		<form id="busca">
+  			<label for="autorBusq"> Buscar por autor: </label>
+  			<input type="text" id="autorBusq">
+  			<input type="submit" name="submit" value="Buscar!" id="searchAuthor">
+  		</form>
+  		<div id="comentarios">
+  			<h2>Comentarios</h2>
+  				<div id="commentSection">
+
+  				</div>
+  		</div>
+  	</main>
+  	<form id="editComment">
+  		<fieldset>
+  			<legend>Edit comment!</legend>
+  			<label for="edittitle">Title</label>
+  			<input type="text" name="edittitle" id="edittitle"> <br>
+  			<label for="editauthor">Your name</label>
+  			<input type="text" name="editauthor" id="editauthor"> <br>
+  			<label for="editcontent">Your comment</label><br>
+  			<textArea name="editcontent" id="editcontent"></textArea><br>
+  			<label id="editCommentId"></label>
+  			<input type="submit" id="submitEdit">
+  		</fieldset>
+  	</form>
+  	<form id="newComment">
+  		<fieldset>
+  			<legend>Leave a comment!</legend>
+  			<label for="title">Title</label>
+  			<input type="text" name="title" id="title"> <br>
+  			<label for="author">Your name</label>
+  			<input type="text" name="author" id="author"> <br>
+  			<label for="content">Your comment</label><br>
+  			<textArea name="content" id="content"></textArea><br>
+  			<input type="submit" id="submitComment">
+  		</fieldset>
+  	</form>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>

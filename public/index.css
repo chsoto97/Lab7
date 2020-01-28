@@ -1,0 +1,13 @@
+#commentSection > div{
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+#editComment{
+	display: none;
+}
+
+#editCommentId{
+	display: none;
+}
